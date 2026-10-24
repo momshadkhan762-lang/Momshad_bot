@@ -146,7 +146,7 @@ def handle_like(message):
     uid = args[2]
 
     sent_msg = bot.reply_to(message, "⏳ Processing your request...")
-    api_url = f"https://like-apii-one.vercel.app/like?uid={uid}&server_name={region}"
+    api_url = f"https://api-bot-p5wz.onrender.com/like?uid={uid}&region={region}&key=Anurag"
 
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
